@@ -121,6 +121,9 @@ const App: React.FC = () => {
             <div key={vol} className="volume">
               <img src={logoUrls[vol-1]} alt={`Volume ${vol}`} className="volume-logo" />
               <p>{o}/{t} carte possedute</p>
+              <div className="progress-bar">
+                <div className="progress-fill" style={{ width: `${(o / t) * 100}%` }}></div>
+              </div>
               <ul>
                 {volumes[vol].map(cardName => {
                   const card = allCards.find(c => c.name === cardName);
