@@ -3,6 +3,7 @@ import { allCards, volumes, ownedCards as initialOwned, missingCards as initialM
 import './App.css';
 
 const App: React.FC = () => {
+  console.log('App component loaded');
   const [owned, setOwned] = useState<Set<string>>(new Set(initialOwned));
   const [missing, setMissing] = useState<Set<string>>(new Set(initialMissing));
 
