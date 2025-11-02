@@ -13,7 +13,7 @@ Un tracker interattivo per seguire le tue carte Promo A di Pokémon TCG Pocket. 
 
 ## 🚀 Demo
 
-Visita la [demo live](https://gaia-cecchi.github.io/PKMN-TCGP-PromoA/) per provare il tracker.
+Visita la [demo live](https://gaia-cecchi.github.io/Gaia-Cecchi-PKMN-TCGP-PromoA/) per provare il tracker.
 
 ## 📱 Come Usare
 
